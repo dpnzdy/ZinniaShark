@@ -18,6 +18,6 @@ export const writer = {
   releases: `${site}releases.html`,
   privacy: `${site}app-privacy.html`,
   sample: `${site}docs/04_Adequora_Writer_글과_자료를_한_문서에.html`,
-  screenshot: '/images/zinniashark-note-screen-1.0.2.png',
-  icon: '/images/adequora-writer-icon.webp',
+  screenshot: '/images/zinniashark-note-screen-1.0.2.png?v=20261108',
+  icon: '/images/adequora-writer-icon.webp?v=20261108',
 } as const;

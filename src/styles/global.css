@@ -54,7 +54,7 @@ h3 { font-size: 1.3rem; }
 .store-button { gap: 10px; text-align: center; }
 .store-button svg { flex-shrink: 0; }
 .product-identity { display: flex; align-items: center; gap: 14px; margin-bottom: 20px; }
-.product-identity img { object-fit: contain; border-radius: 12px; }
+.product-identity img { object-fit: contain; border-radius: 0; }
 .release-pill { display: inline-block; padding: 7px 12px; margin-bottom: 24px; background: var(--mint); border-radius: 12px; color: var(--green-dark); font-size: .8rem; font-weight: 700; }
 .product-hero h1 { font-size: clamp(2.7rem, 5.3vw, 4.5rem); }
 .product-hero .product-meta, .product-meta { font-size: .85rem; }
