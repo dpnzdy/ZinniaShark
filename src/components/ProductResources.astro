@@ -26,7 +26,9 @@ const resources = ko ? [
     </div>
     <div class="resource-links">
       <a href={writer.releases} hreflang="ko">{ko ? '버전 소식과 알려진 제한' : 'Release notes & known limitations (Korean)'} ↗</a>
-      <a href={writer.privacy} hreflang="ko">{ko ? '앱 개인정보처리방침' : 'App privacy policy (Korean)'} ↗</a>
+      <a href={writer.privacy} hreflang="ko">{ko ? 'Windows 앱 개인정보처리방침' : 'Windows app privacy policy (Korean)'} ↗</a>
+      <a href={writer.androidPrivacy} hreflang="ko">{ko ? 'Android 앱 개인정보처리방침' : 'Android app privacy policy (Korean)'} ↗</a>
     </div>
+    <p class="muted">{ko ? 'Android 앱은 Google Play 출시를 준비하고 있습니다. Android 개인정보처리방침 공개는 앱 출시나 심사 완료를 뜻하지 않습니다.' : 'The Android app is being prepared for Google Play. Publication of its privacy policy does not mean that the app has launched or passed review.'}</p>
   </div>
 </section>

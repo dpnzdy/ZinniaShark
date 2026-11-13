@@ -1,9 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { writer } from '../data/adequora-writer';
 ---
 <Layout title="Privacy Policy" description="Privacy Policy for the ZINNIASHARK website." path="/privacy/">
-  <section class="page-hero"><div class="container"><span class="eyebrow">Legal</span><h1>Privacy Policy</h1><p>Effective date: September 10, 2026</p></div></section>
+  <section class="page-hero privacy-hero"><div class="container"><span class="eyebrow">Legal</span><h1>Privacy Policy</h1><p>Effective date: September 10, 2026</p></div></section>
   <section class="container prose">
+    <aside class="app-policy-links" aria-label="App privacy policies"><h2>Looking for an app privacy policy?</h2><p>This page covers our company website and general inquiries. For ZinniaShark Note document handling and product support, see the policy for your platform.</p><ul><li><a href={writer.privacy} hreflang="ko">Windows app privacy policy — effective November 1, 2026 (Korean)</a></li><li><a href={writer.androidPrivacy} hreflang="ko">Android app privacy policy — effective November 13, 2026 (Korean)</a></li></ul><p>The Android app has not yet launched on Google Play. Publishing its policy does not announce an app release.</p></aside>
     <p>ZINNIASHARK ("ZINNIASHARK," "we," "us," or "our") respects your privacy. This Privacy Policy explains how we handle information when you visit <strong>zinniashark.com</strong> or contact us by email.</p>
     <h2>1. Who We Are</h2><p><strong>Legal business name:</strong> 지니아샥(ZINNIASHARK)<br /><strong>Privacy contact:</strong> <a href="mailto:contact@zinniashark.com">contact@zinniashark.com</a></p>
     <h2>2. Information We Collect</h2><p>When you contact us, we may receive your name, email address, message contents, and files or information you voluntarily provide. Hosting and security providers may process limited technical information such as IP address, browser type, device information, and request logs to deliver, secure, and maintain the Website.</p><p>Do not send passwords, financial information, or other sensitive information by email.</p>

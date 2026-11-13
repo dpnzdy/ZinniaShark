@@ -83,7 +83,8 @@ const fullTitle = title === 'ZINNIASHARK' ? title : `${title} · ZINNIASHARK`;
           <a href={href('/products/adequora-writer/')}>ZinniaShark Note</a>
           <a href={href('/support/')}>{labels.support}</a>
           <a href={href('/privacy/')}>{labels.privacyPolicy}</a>
-          <a href={writer.privacy} hreflang="ko">{labels.appPrivacy}</a>
+          <a href={writer.privacy} hreflang="ko">{locale === 'ko' ? 'Windows 앱 개인정보처리방침' : 'Windows app privacy (Korean)'}</a>
+          <a href={writer.androidPrivacy} hreflang="ko">{locale === 'ko' ? 'Android 앱 개인정보처리방침' : 'Android app privacy (Korean)'}</a>
           <a href={href('/terms/')}>{labels.terms}</a>
           <a href={href('/contact/')}>{labels.contact}</a>
         </div>
