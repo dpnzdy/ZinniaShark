@@ -10,8 +10,8 @@ args=parser.parse_args()
 root=Path(__file__).resolve().parents[1]
 output=root/'.qa/privacy'
 output.mkdir(parents=True,exist_ok=True)
-android='https://dpnzdy.github.io/adequora-writer/android-app-privacy.html'
-windows='https://dpnzdy.github.io/adequora-writer/app-privacy.html'
+android='https://dpnzdy.github.io/ZinniaSharkNote/android-app-privacy.html'
+windows='https://dpnzdy.github.io/ZinniaSharkNote/app-privacy.html'
 reports=[]
 with sync_playwright() as p:
     browser=p.chromium.launch(channel='msedge',headless=True)

@@ -1,6 +1,6 @@
 // Confirmed release information from the ZinniaShark Note product website.
 // Update these values together when a new Store package is published.
-const site = 'https://dpnzdy.github.io/adequora-writer/';
+const site = 'https://dpnzdy.github.io/ZinniaSharkNote/';
 export const writer = {
   name: 'ZinniaShark Note',
   previousName: 'Adequora Writer',

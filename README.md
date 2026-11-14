@@ -5,8 +5,8 @@
 ## 앱 개인정보처리방침 연결
 
 - 공식 원문은 제품 사이트에서 플랫폼별로 관리합니다. 회사 웹사이트 방침과 앱의 처리 범위는 구분합니다.
-- Windows: https://dpnzdy.github.io/adequora-writer/app-privacy.html — 시행일 2026-11-01 유지.
-- Android: https://dpnzdy.github.io/adequora-writer/android-app-privacy.html — 시행일 2026-11-13.
+- Windows: https://dpnzdy.github.io/ZinniaSharkNote/app-privacy.html — 시행일 2026-11-01 유지.
+- Android: https://dpnzdy.github.io/ZinniaSharkNote/android-app-privacy.html — 시행일 2026-11-13.
 - 공통 주소는 `src/data/adequora-writer.ts`의 privacy/androidPrivacy, 진입점은 `Layout.astro`, `ProductResources.astro`, 한·영 privacy 페이지입니다.
 - Android 정책 공개가 Google Play 앱 출시나 심사 승인을 뜻하지 않도록 표시합니다. 기존 Windows 다운로드와 공개 이력을 정책 추가만으로 변경하지 않습니다.
 
